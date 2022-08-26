@@ -31,51 +31,59 @@ body {
   border-radius: 5px;
   background: hsl(244deg, 38%, 16%);
 }
-.wrapper .banner {
+
+.banner {
   background: url(../images/image-header-mobile.jpg) hsl(277deg, 64%, 61%);
   flex: 1;
   background-blend-mode: multiply;
   background-size: cover;
 }
-.wrapper .banner .banner-cover {
+
+.banner-cover {
   background: rgba(255, 255, 255, 0.1333333333);
   width: 100%;
   height: 100%;
 }
-.wrapper .content {
+
+.content {
   padding: 40px;
   flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.wrapper .content > div {
+.content > div {
   flex: 1;
 }
-.wrapper .content h1 {
+.content h1 {
   letter-spacing: 1px;
 }
-.wrapper .content h1 .special-txt {
+
+.special-txt {
   color: hsl(277deg, 64%, 61%);
 }
-.wrapper .content .main-paragraph {
+
+.main-paragraph {
   font-size: 0.9em;
   color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 1.75em;
   margin-top: 20px;
 }
-.wrapper .content .proof {
+
+.proof {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.wrapper .content .proof-value {
+
+.proof-value {
   font-weight: 700;
   display: block;
   font-size: 1.25em;
   margin-bottom: 5px;
 }
-.wrapper .content .proof-label {
+
+.proof-label {
   color: hsla(0deg, 0%, 100%, 0.6);
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -89,17 +97,17 @@ body {
     height: 55vh;
     text-align: left;
   }
-  .wrapper .banner {
+  .banner {
     flex: 50%;
   }
-  .wrapper .content {
+  .content {
     flex: 50%;
     padding: 75px 125px 75px 75px;
   }
-  .wrapper .content h1 {
+  .content h1 {
     font-size: 2em;
   }
-  .wrapper .content .proof {
+  .proof {
     flex-direction: row;
     align-items: flex-end;
   }
